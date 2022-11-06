@@ -70,3 +70,10 @@ function playSound(name) {
   let audio = new Audio("sounds/" + name + ".mp3");
   audio.play();
 }
+
+
+function startOver() {
+  level = 0;
+  gamePattern = [];
+  started = false;
+}
